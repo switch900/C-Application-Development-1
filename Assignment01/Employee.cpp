@@ -10,14 +10,14 @@
 #include <string>
 #include <iostream>
 
-const int SHORTEST_NAME = 1;//minimum  amount of letters allowed in first or last name
+const int SHORTEST_NAME = 2;//minimum  amount of letters allowed in first or last name
 const int LOWEST_MONTHLY_SALARY = 0;//minimum monthly salary allowed
 
 /**Employee constructor that confirms values are valid and
 initializes the three data members for first name, last name and monthly salary*/
 Employee::Employee(string _firstName, string _lastName, int _monthlySalary)
 {
-	if (_firstName.length() > SHORTEST_NAME) {
+	if (_firstName.length() >= SHORTEST_NAME) {
 		setFirstName(_firstName);
 	}
 	else {
@@ -25,7 +25,7 @@ Employee::Employee(string _firstName, string _lastName, int _monthlySalary)
 		firstName = _firstName;
 	}
 
-	if (_lastName.length() > SHORTEST_NAME) {
+	if (_lastName.length() >= SHORTEST_NAME) {
 		setLastName(_lastName);
 	}
 	else {
@@ -64,7 +64,7 @@ int Employee::getMonthlySalary() const
 void Employee::setFirstName(string _firstName)
 {
 	//if input valid
-	if (_firstName.length() > SHORTEST_NAME) {
+	if (_firstName.length() >= SHORTEST_NAME) {
 		firstName = _firstName;
 	}
 	else { //output error message
@@ -77,7 +77,7 @@ void Employee::setFirstName(string _firstName)
 void Employee::setLastName(string _lastName)
 {
 	//if input valid
-	if (_lastName.length() > SHORTEST_NAME) {
+	if (_lastName.length() >= SHORTEST_NAME) {
 		lastName = _lastName;
 	}
 	else { //output error message
