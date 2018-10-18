@@ -83,7 +83,6 @@ int main()
 			}
 		}
 		
-		//display numerical value of roman numeral if total is not 0.
 		cout<< " = "<< total;	
 		error = false;//reset error state to false for next entry.
 	}
