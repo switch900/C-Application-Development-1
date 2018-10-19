@@ -1,4 +1,4 @@
-//Assignment 3 : A01029917_Hewitson_Assign03.cpp
+//Assignment 3 : Multiplication.cpp
 //Multiplication program
 //Andrew Hewitson
 //October 4, 2018
