@@ -14,11 +14,11 @@
 
 using namespace std;
 
-const unsigned int LOWEST_NUMBER = 10; //lowest number user may enter
-const unsigned int HIGHEST_NUMBER = 100; //highest number user may enter
-const unsigned int COLUMN_COUNT = 5; //total amount of columns displayed
-const unsigned int COLUMN_SPACING = 6; //space between columns being displayed
-static const unsigned int SIZE1 = 20; //size of array
+const unsigned int LOWEST_NUMBER = 10, //lowest number user may enter
+		HIGHEST_NUMBER = 100, //highest number user may enter
+		COLUMN_COUNT = 5, //total amount of columns displayed
+		COLUMN_SPACING = 6, //space between columns being displayed
+		SIZE1 = 20; //size of array
 
 // Function prototypes
 
