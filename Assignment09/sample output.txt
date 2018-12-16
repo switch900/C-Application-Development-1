@@ -1,0 +1,38 @@
+PART 1
+The result of calling sign(4) is:
+No parking
+No parking
+No parking
+No parking
+
+
+part 2
+the sum of the 10 values is: 59.5
+
+PART 3
+The value 15 was found.
+
+The value 45 was not found.
+
+PART 4 (takes over 20 minutes to complete on my pc)
+The number of possible bridge hands is: 635013559600
+
+PART 5
+The decimal value 245 converted to binary is: 11110101
+
+PART 6
+The result of invoking ReverseString("How are you today?"); is:
+?yadot uoy era woH
+
+PART 7
+The value 15 was found at location: 14
+
+The value 30 was not found.
+
+
+PART 8
+The number of odd values found is: 3
+
+The number of odd values found is: 0
+
+Press any key to continue . . .
